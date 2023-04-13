@@ -4,8 +4,8 @@
 
 * Clone repository
 * run `go mod tidy`
-* run `make run order=asc plugin=svp path="cmd/testdata/products.json"`
-** the variables can be alternated to various options
+* run `make run order=asc plugin=svp path="cmd/testdata/products.json"` <br />
+NB: The variables can be alternated to various options
 
 
 ### Contribution
