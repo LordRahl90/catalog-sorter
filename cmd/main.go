@@ -6,10 +6,11 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"zabira/plugins/price"
-	"zabira/plugins/salesperview"
-	"zabira/plugins/views"
-	"zabira/sorter"
+
+	"github.com/LordRahl90/catalog-sorter/plugins/price"
+	"github.com/LordRahl90/catalog-sorter/plugins/salesperview"
+	"github.com/LordRahl90/catalog-sorter/plugins/views"
+	"github.com/LordRahl90/catalog-sorter/sorter"
 )
 
 var (

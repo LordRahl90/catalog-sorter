@@ -3,7 +3,8 @@ package views
 import (
 	"fmt"
 	"sort"
-	"zabira/sorter"
+
+	"github.com/LordRahl90/catalog-sorter/sorter"
 )
 
 var (

@@ -1,7 +1,7 @@
 package adapter
 
 import (
-	"zabira/sorter"
+	"github.com/LordRahl90/catalog-sorter/sorter"
 )
 
 // Product adapters for handling product comparisons

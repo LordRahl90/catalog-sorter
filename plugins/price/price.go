@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"zabira/plugins/price/adapter"
-	"zabira/sorter"
+	"github.com/LordRahl90/catalog-sorter/plugins/price/adapter"
+	"github.com/LordRahl90/catalog-sorter/sorter"
 )
 
 var (

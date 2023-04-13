@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"zabira/plugins/salesperview/adapter"
-	"zabira/sorter"
+	"github.com/LordRahl90/catalog-sorter/plugins/salesperview/adapter"
+	"github.com/LordRahl90/catalog-sorter/sorter"
 )
 
 // SalesPriceViewSort houses a sorting implementation based on the price of a product

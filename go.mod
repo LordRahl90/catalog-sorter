@@ -1,4 +1,4 @@
-module zabira
+module github.com/LordRahl90/catalog-sorter
 
 go 1.20
 

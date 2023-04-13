@@ -3,7 +3,8 @@ package views
 import (
 	"os"
 	"testing"
-	"zabira/sorter"
+
+	"github.com/LordRahl90/catalog-sorter/sorter"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

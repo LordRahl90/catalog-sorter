@@ -1,8 +1,8 @@
 package adapter
 
 import (
-	"zabira/entity"
-	"zabira/sorter"
+	"github.com/LordRahl90/catalog-sorter/entity"
+	"github.com/LordRahl90/catalog-sorter/sorter"
 )
 
 // Product adapters for handling product comparisons
