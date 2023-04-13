@@ -49,7 +49,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("Result:\n%s\n", b)
+	fmt.Printf("\n%s\n", b)
 }
 
 func handle(orderStr string, plugin string, products []sorter.Product) ([]sorter.Product, error) {
