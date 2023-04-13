@@ -44,7 +44,7 @@ func FromEntity(products []sorter.Product) Products {
 		}
 
 		if v.SalesCount > 0 && v.ViewCount > 0 {
-			result[i].SalesPerView = float64(v.SalesCount / v.ViewCount)
+			result[i].SalesPerView = float64(v.SalesCount) / float64(v.ViewCount)
 		}
 	}
 

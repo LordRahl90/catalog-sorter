@@ -27,16 +27,6 @@ func (spv *SalesPerPriceViewSort) Enabled() bool {
 	return spv.enabled
 }
 
-// Enable enables the plugin
-func (spv *SalesPerPriceViewSort) Enable() {
-	spv.enabled = true
-}
-
-// Disable flips the switch
-func (spv *SalesPerPriceViewSort) Disable() {
-	spv.enabled = false
-}
-
 // Name returns the name of the of this plugin
 func (spv *SalesPerPriceViewSort) Name() string {
 	return spv.name
